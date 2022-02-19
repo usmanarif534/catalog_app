@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
+  static const route = "Home Page";
   final int days = 30;
   final String name = 'Usman Rajpoot';
 
